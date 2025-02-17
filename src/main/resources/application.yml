@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: blog
+  data:
+    mongodb:
+      uri: mongodb+srv://ranjeet:ranjeet#123@cluster0.vvc1w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: blog_service
+      auto-index-creation: true
